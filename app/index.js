@@ -26,8 +26,8 @@ var ImpressjsGenerator = yeoman.generators.Base.extend({
     var prompts = [{
       type: 'confirm',
       name: 'someOption',
-      message: 'Would you like to enable this option?',
-      default: false
+      message: 'Would you like to continue generate impress slide?',
+      default: true
     }];
 
     this.prompt(prompts, function (props) {
