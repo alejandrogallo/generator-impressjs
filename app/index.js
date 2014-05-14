@@ -40,6 +40,7 @@ var ImpressjsGenerator = yeoman.generators.Base.extend({
   app: function () {
     this.copy('impress.js', 'impress.js');
     this.copy('slide.html', 'slide.html');
+    this.copy('package.json', 'package.json');
     
     console.log('Finishing Gernerating Impress Slide!');
   },
